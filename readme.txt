@@ -48,8 +48,3 @@ In diesen Addon sind 3 Bilder, die aus dem Internet bezogen wird.
 		Wird für das Addon verwendet: Als Symbol für das Addon.
 		Wurde für das Addon angepasst.
 		Die Projekt-Datei (Programm: GIMP 2.10.34) liegt bei.
-
-
-
-
-
