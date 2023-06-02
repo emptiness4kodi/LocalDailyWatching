@@ -1,0 +1,459 @@
+# Kodi Media Center language file
+# Addon Name: DailyWatching
+# Addon id: script.DailyWatching
+# Addon Provider: random user (emptiness)
+msgid ""
+msgstr ""
+"Project-Id-Version: Addon LocalDailyWatching\n"
+"POT-Creation-Date: YEAR-MO-DA\n"
+"PO-Revision-Date: 2023-05-30\n"
+"Last-Translator: emptiness\n"
+"Language: de_de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+
+# -----
+# 1 1 0 0 0
+# | | | | |
+# | | | ↳--	laufende Nr.
+# | | ↳----	laufende Nr., Unterbereich
+# | ↳------	laufende Nr., Bereich
+# ↳--------	Menu:
+# 				1=Hauptseite
+# 				2=Playlist verwalten
+# 				3=Einstellungen
+# 				4=Database
+# 				5=
+# 				6=
+# 				7=
+# 				8=
+# -----
+
+msgctxt "#12345"
+msgid "Home_Homepage_Title"
+msgstr "[COLOR button_focus]Playlist abspielen:[/COLOR]"
+
+
+msgctxt "#10001"
+msgid "Home_Homepage_Title"
+msgstr "Startseite"
+
+# -----
+
+msgctxt "#11002"
+msgid "Home_Playlist_Add_Title"
+msgstr "Playlist erstellen"
+
+msgctxt "#11003"
+msgid "Home_Playlist_Add_Plot"
+msgstr "Playlist erstellen um beliebige Serien bequem anzugucken."
+
+msgctxt "#11004"
+msgid "Home_Playlist_Edit_Title"
+msgstr "Playlist bearbeiten"
+
+msgctxt "#11005"
+msgid "Home_Playlist_Edit_Plot"
+msgstr "Falscher Name? Eine Serie fehlt? Kein Problem - hier kannst du dies ändern."
+
+msgctxt "#11006"
+msgid "Home_Playlist_Delete_Title"
+msgstr "Playlist löschen"
+
+msgctxt "#11007"
+msgid "Home_Playlist_Delete_Plot"
+msgstr "Playlist fertig geguckt? Oder zuviele Playlisten erstellt? Einfach hier löschen."
+
+msgctxt "#11008"
+msgid "Home_Setting_Title"
+msgstr "Einstellungen"
+
+msgctxt "#11009"
+msgid "Home_Setting_Plot"
+msgstr "Hier kannst du Einstellungen für das Addon machen."
+
+# -----
+
+msgctxt "#12001"
+msgid "Home_Playlist_ID_Plot_Play_Title"
+msgstr "[COLOR button_focus]Playlist abspielen:[/COLOR]"
+
+msgctxt "#12002"
+msgid "Home_Playlist_ID_Plot_Play_DayX"
+msgstr "Tag"
+
+msgctxt "#12003"
+msgid "Home_Playlist_ID_Plot_Play_Episodes_Singular"
+msgstr "Folge noch"
+
+msgctxt "#12004"
+msgid "Home_Playlist_ID_Plot_Play_Episodes_Plural"
+msgstr "Folgen noch"
+
+msgctxt "#12005"
+msgid "Home_Playlist_ID_Plot_Play_Complete"
+msgstr "Vollständig durchgeschaucht."
+
+msgctxt "#12006"
+msgid "Home_Playlist_ID_Plot_Serie_Title"
+msgstr "[COLOR button_focus]Serien:[/COLOR]"
+
+msgctxt "#12007"
+msgid "Home_Playlist_ID_Dialog_Play_Complete"
+msgstr "Die Playlist wurde vollständig durchgeschaucht."
+
+# -----
+
+msgctxt "#13001"
+msgid "Home_Playlist_Delete_Option_Title"
+msgstr "Playlist auswählen, die gelöscht werden soll."
+
+msgctxt "#13002"
+msgid "Home_Playlist_Delete_Dialog_Title"
+msgstr "Playlist wurde erfolgreich gelöscht."
+
+
+# -----
+# -----
+# -----
+
+
+msgctxt "#21001"
+msgid "Manage_Playlist_ReName_Menu_Title"
+msgstr "Umbenennen"
+
+msgctxt "#21002"
+msgid "Manage_Playlist_ReName_Menu_Title_Current_Title"
+msgstr "Aktuell:"
+
+msgctxt "#21003"
+msgid "Manage_Playlist_ReName_Menu_Title_Current_Value_Empty"
+msgstr "[I]Keine Eingabe[/I]"
+
+msgctxt "#21004"
+msgid "Manage_Playlist_ReName_Menu_Plot_Title"
+msgstr "Playlist umbenennen."
+
+msgctxt "#21005"
+msgid "Manage_Playlist_ReName_Menu_Plot_Current_Title"
+msgstr "[COLOR button_focus]Aktuell:[/COLOR]"
+
+msgctxt "#21006"
+msgid "Manage_Playlist_ReName_Menu_Plot_Current_Value_Empty"
+msgstr "[I]Keine Eingabe gemacht[/I]"
+
+
+
+msgctxt "#21101"
+msgid "Manage_Playlist_ReName_Option_Title"
+msgstr "Gib der Playlist einen Namen."
+
+msgctxt "#21102"
+msgid "Manage_Playlist_ReName_Dialog_Error"
+msgstr "Bitte einen Namen vergeben."
+
+# -----
+
+msgctxt "#22001"
+msgid "Manage_Playlist_Poster_Menu_Title"
+msgstr "Bild auswählen"
+
+msgctxt "#22002"
+msgid "Manage_Playlist_Poster_Menu_Title_Current_Title"
+msgstr "Aktuell:"
+
+msgctxt "#22003"
+msgid "Manage_Playlist_Poster_Menu_Title_Current_Value_Empty"
+msgstr "[I]Keine Eingabe[/I]"
+
+msgctxt "#22004"
+msgid "Manage_Playlist_Poster_Menu_Plot_Title"
+msgstr "Bild für die Playlist auswählen."
+
+msgctxt "#22005"
+msgid "Manage_Playlist_Poster_Menu_Plot_Current_Title"
+msgstr "[COLOR button_focus]Aktuell:[/COLOR]"
+
+msgctxt "#22006"
+msgid "Manage_Playlist_Poster_Menu_Plot_Current_Value_Empty"
+msgstr "[I]Keine Eingabe gemacht[/I]"
+
+
+
+msgctxt "#22101"
+msgid "Manage_Playlist_Poster_Option_Title"
+msgstr "Wähle ein Bild für die Playlist aus."
+
+msgctxt "#22102"
+msgid "Manage_Playlist_Poster_Option_Context_Edit"
+msgstr "Bild ändern"
+
+msgctxt "#22103"
+msgid "Manage_Playlist_Poster_Option_Context_Delete"
+msgstr "Bild entfernen"
+
+msgctxt "#22104"
+msgid "Manage_Playlist_Poster_Menu_Title_Current_Value_Select"
+msgstr "Bild ausgewählt"
+
+# -----
+
+msgctxt "#23001"
+msgid "Manage_Playlist_EPP_Menu_Title"
+msgstr "Folgen pro Tag gesamt"
+
+msgctxt "#23002"
+msgid "Manage_Playlist_EPP_Menu_Title_Current_Title"
+msgstr "Aktuell:"
+
+msgctxt "#23003"
+msgid "Manage_Playlist_EPP_Menu_Title_Current_Value_Empty"
+msgstr "[I]Keine Eingabe[/I]"
+
+msgctxt "#23004"
+msgid "Manage_Playlist_EPP_Menu_Plot_Title"
+msgstr "Anzahl an Folgen für den ganzen Tag."
+
+msgctxt "#23005"
+msgid "Manage_Playlist_EPP_Menu_Plot_Current_Title"
+msgstr "[COLOR button_focus]Aktuell:[/COLOR]"
+
+msgctxt "#23006"
+msgid "Manage_Playlist_EPP_Menu_Plot_Current_Value_Empty"
+msgstr "[I]Keine Eingabe gemacht[/I]"
+
+
+msgctxt "#23101"
+msgid "Manage_Playlist_EPP_Option_Title"
+# msgstr "Folgen pro Tag gesamt.\nMaximal 24."
+msgstr "Folgen pro Tag gesamt."
+
+
+# -----
+
+msgctxt "#24001"
+msgid "Manage_Playlist_Serie_Menu_Title"
+msgstr "Serienauswahl"
+
+msgctxt "#24002"
+msgid "Manage_Playlist_Serie_Menu_Title_Current_Title"
+msgstr "Aktuell:"
+
+msgctxt "#24003"
+msgid "Manage_Playlist_Serie_Menu_Plot_Title"
+msgstr "Ausgewählte Serien verwalten."
+
+msgctxt "#24004"
+msgid "Manage_Playlist_Serie_Menu_Plot_Current_Title"
+msgstr "[COLOR button_focus]Aktuell:[/COLOR]"
+
+
+
+msgctxt "#24101"
+msgid "Manage_Playlist_Serie_SubMenu_Title"
+msgstr "Eine Serie hinzufügen"
+
+msgctxt "#24102"
+msgid "Manage_Playlist_Serie_SubMenu_Plot"
+msgstr "Eine Serie zur bestehenden Liste hinzufügen."
+
+msgctxt "#24103"
+msgid "Manage_Playlist_Serie_Option_Path_Title"
+msgstr "Wähle den Ordner der Serie aus."
+
+msgctxt "#24104"
+msgid "Manage_Playlist_Serie_Option_Name_Title"
+msgstr "Gib der Serie einen Namen."
+
+msgctxt "#24105"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Plot_Title"
+msgstr "[COLOR button_focus]Folgen pro Tag:[/COLOR]"
+
+msgctxt "#24106"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Plot_Path"
+msgstr "[COLOR button_focus]Pfad:[/COLOR]"
+
+msgctxt "#24107"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Context_Move_Up"
+msgstr "nach oben"
+
+msgctxt "#24108"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Context_Move_Down"
+msgstr "nach unten"
+
+msgctxt "#24109"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Context_ReName"
+msgstr "Name ändern"
+
+msgctxt "#24110"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Context_Path"
+msgstr "Pfad ändern"
+
+msgctxt "#24111"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Context_EpisodePerDay"
+msgstr "Folgen pro Tag ändern"
+
+msgctxt "#24112"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Context_Delete"
+msgstr "Eintrag entfernen"
+
+msgctxt "#24113"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Title_Episode_Singular"
+msgstr "[I]([EPISODE_COUNT] Folge gesamt)[/I]"
+
+msgctxt "#24114"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Title_Episode_Plural"
+msgstr "[I]([EPISODE_COUNT] Folgen gesamt)[/I]"
+
+msgctxt "#24115"
+msgid "Manage_Playlist_Serie_SubMenu_ID_Title_Episode_Empty"
+msgstr "[I](Kein Name angegeben)[/I]"
+
+
+msgctxt "#24201"
+msgid "Manage_Playlist_Serie_Menu_Plot_Current_Series_Empty_Value"
+msgstr "[I](Kein Name angegeben)[/I]"
+
+msgctxt "#24202"
+msgid "Manage_Playlist_Serie_Menu_Plot_Current_Series_GoOn"
+msgstr ".. und noch [COUNT_SERIE] weitere"
+
+
+
+
+
+
+# -----
+
+msgctxt "#25001"
+msgid "Manage_Playlist_Video_Menu_Title"
+msgstr "Videoübersicht anzeigen"
+
+msgctxt "#25002"
+msgid "Manage_Playlist_Video_Menu_Plot"
+msgstr "Übersicht der Videos von den ausgewählten Serien."
+
+
+
+msgctxt "#25101"
+msgid "Manage_Playlist_Video_SubMenu_Title_Day"
+msgstr "Tag"
+
+msgctxt "#25102"
+msgid "Manage_Playlist_Video_SubMenu_Title_Episode_Singular"
+msgstr "Folge"
+
+msgctxt "#25103"
+msgid "Manage_Playlist_Video_SubMenu_Title_Episode_Plural"
+msgstr "Folgen"
+
+msgctxt "#25104"
+msgid "Manage_Playlist_Video_SubMenu_Title_Head"
+msgstr "Videoliste"
+
+msgctxt "#25105"
+msgid "Manage_Playlist_Video_SubMenu_Info_1_NoSeries"
+msgstr "[I]** Keine Serien ausgewählt **[/I]"
+
+msgctxt "#25106"
+msgid "Manage_Playlist_Video_SubMenu_Info_2_NoVideos"
+msgstr "[I]** Keine Videos für die ausgewählten Serien gefunden **[/I]"
+
+# -----
+
+msgctxt "#26001"
+msgid "Manage_Playlist_Add_Menu_Title"
+msgstr "[B]Playlist erstellen[/B]"
+
+msgctxt "#26002"
+msgid "Manage_Playlist_Add_Menu_Plot"
+msgstr "Alle vorgenommenen Einstellung übernehmen und als neue Playlist abspeichern."
+
+
+
+msgctxt "#26101"
+msgid "Manage_Playlist_Add_Dialog_Successful"
+msgstr "Playlist wurde erfolgreich erstellt.\n\nZur Übersicht einmal \"Zurück\" gehen."
+
+msgctxt "#26102"
+msgid "Manage_Playlist_Add_Dialog_Error_1"
+msgstr "Für die Erstellung einer Playlist muss diese zumindest einen Namen haben."
+
+# -----
+
+msgctxt "#27001"
+msgid "Manage_Playlist_Edit_Menu_Plot_Title"
+msgstr "Playlist bearbeiten"
+
+msgctxt "#27002"
+msgid "Manage_Playlist_Edit_Menu_Plot_Serie_Title"
+msgstr "[COLOR button_focus]Serien:[/COLOR]"
+
+
+# -----
+# -----
+# -----
+
+
+msgctxt "#30001"
+msgid "Setting_EpisodePerDay_Playlist"
+msgstr "Folgen pro Tag (Playlist)"
+
+msgctxt "#30002"
+msgid "Setting_EpisodePerDay_Serie"
+msgstr "Folgen pro Tag (Serien)"
+
+msgctxt "#30003"
+msgid "Setting_PathToSeries"
+msgstr "Pfad zum Serien-Ordner (für konformtableres navigieren)"
+
+msgctxt "#30004"
+msgid "Setting_PlaylistOverviewSort"
+msgstr "Playlist sortieren"
+
+msgctxt "#30005"
+msgid "Setting_PlaylistOverviewIcon"
+msgstr "Playlist-Bild auch als kleines Icon zeigen"
+
+msgctxt "#31001"
+msgid "Setting_PlaylistOverviewSort_By_Name"
+msgstr "Name"
+
+msgctxt "#31002"
+msgid "Setting_PlaylistOverviewSort_By_Access"
+msgstr "Letzter Zugriff"
+
+msgctxt "#31003"
+msgid "Setting_PlaylistOverviewSort_By_Create"
+msgstr "Erstelldatum"
+
+
+# -----
+# -----
+# -----
+
+
+msgctxt "#41001"
+msgid "Database_Insert_Error"
+msgstr "SQL-Error: Insert fehlgeschlagen. Befehl:"
+
+msgctxt "#41002"
+msgid "Database_Insert_Info"
+msgstr "SQL-Info: Insert erfolgreich. Befehl:"
+
+# -----
+
+msgctxt "#42001"
+msgid "Database_Update_Error"
+msgstr "SQL-Error: Update fehlgeschlagen. Befehl:"
+
+msgctxt "#42002"
+msgid "Database_Update_Info"
+msgstr "SQL-Info: Update erfolgreich. Befehl:"
+
+# -----
+
+msgctxt "#43001"
+msgid "Database_Shema_Message"
+msgstr "Die Datenbank-Struktur ist beschädigt.\n\nDie vorhandene Datenbank-Datei wird umbenannt und eine neue Datenbank-Datei wird erstellt."

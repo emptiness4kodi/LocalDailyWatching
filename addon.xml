@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.localdailywatching" name="LocalDailyWatching" version="1.0" provider-name="emptiness">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="de">LocalDailyWatching</summary>
+		<description lang="de">Mit LocalDailyWatching ist es möglich beliebige, lokal vorhandene Serien TV-mäßig abzuspielen.
+
+Beispiel:
+- 2 Serien ausgewählt
+- beide Serien auf 2 Folgen pro Tag eingestellt
+
+Tag 1:
+	- Serie 1 Folge 1 + 2
+	- Serie 2 Folge 1 + 2
+
+Tag 2:
+	- Serie 1 Folge 3 + 4
+	- Serie 2 Folge 3 + 4</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<assets>
+			<icon>resources/images/icon/television-07-icon.png</icon>
+			<fanart>resources/images/fanart/wallhaven-qdq88d.png</fanart>
+			<!--
+			<fanart>resources/images/fanart/wallhaven-l3w8el.jpg</fanart>
+			<fanart>resources/images/fanart/wallhaven-qdq88d.png</fanart>
+			-->
+			<screenshot>resources/images/screenshots/Screenshot_01.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_02.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_03.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_04.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_05.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_06.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_07.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_08.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_09.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_10.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_11.png</screenshot>
+			<screenshot>resources/images/screenshots/Screenshot_12.png</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>

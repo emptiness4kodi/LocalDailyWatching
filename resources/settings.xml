@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<settings>
+	<category label="Allgemein">
+		<setting
+			id="EpisodePerDayByPlaylist"
+			label="30001"
+			type="slider"
+			default="40"
+			range="1,100"
+			option="int"
+			/>
+		<setting
+			id="EpisodePerDayBySerie"
+			label="30002"
+			type="slider"
+			default="2"
+			range="1,100"
+			option="int"
+			/>
+		<setting
+			id="PathToSeries"
+			label="30003"
+			type="folder"
+			source="local"
+			default="#"
+			/>
+		 <setting
+			 id="PlaylistOverviewSort"
+			 label="30004"
+			 type="select"
+			 lvalues="31001|31002|31003"
+			 default="Name"
+			 />
+		 <setting
+			id="PlaylistOverviewIcon"
+			label="30005"
+			type="bool"
+			default="false"
+			 />
+	</category>
+</settings>
