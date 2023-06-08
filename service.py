@@ -5,8 +5,6 @@ import xbmcgui
 import xbmcplugin
 
 
-
-
 Monitor				= xbmc.Monitor()
 Player				= xbmc.Player()
 Playlist			= xbmc.PlayList(xbmc.PLAYLIST_VIDEO)
@@ -14,7 +12,6 @@ Playlist			= xbmc.PlayList(xbmc.PLAYLIST_VIDEO)
 
 Addon_DatabaseFile	= getAddonDatabaseFile()
 Database			= Store(Addon_DatabaseFile)
-
 
 
 if __name__ == '__main__':
@@ -26,7 +23,7 @@ if __name__ == '__main__':
 
 
 		if Player.isPlayingVideo():
-			Log('is playing .. ')
+			#Log('is playing .. ')
 			InfoTag			= Player.getVideoInfoTag()
 			FileCurrent		= Player.getPlayingFile()
 			AddonName		= getAddonInfo('name')
@@ -38,7 +35,7 @@ if __name__ == '__main__':
 
 
 			if getAddonName == AddonName and getVideoID != '':
-				Log('video from addon .. ')
+				#Log('video from addon .. ')
 
 
 				TimeCurrent	= int(Player.getTime())
