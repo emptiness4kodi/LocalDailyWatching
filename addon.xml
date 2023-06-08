@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="script.localdailywatching" name="LocalDailyWatching" version="1.0" provider-name="emptiness">
+<addon id="script.localdailywatching" name="LocalDailyWatching" version="1.1" provider-name="emptiness">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -45,6 +45,5 @@ Tag 2:
 			<screenshot>resources/images/screenshots/Screenshot_11.png</screenshot>
 			<screenshot>resources/images/screenshots/Screenshot_12.png</screenshot>
 		</assets>
-		<news></news>
 	</extension>
 </addon>

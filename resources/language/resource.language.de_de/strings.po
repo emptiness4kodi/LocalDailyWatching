@@ -4,10 +4,10 @@
 # Addon Provider: random user (emptiness)
 msgid ""
 msgstr ""
-"Project-Id-Version: Addon LocalDailyWatching\n"
+"Project-Id-Version: Addon DailyWatching\n"
 "POT-Creation-Date: YEAR-MO-DA\n"
-"PO-Revision-Date: 2023-05-30\n"
-"Last-Translator: emptiness\n"
+"PO-Revision-Date: 2023-05-19\n"
+"Last-Translator: random user (emptiness)\n"
 "Language: de_de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,22 +24,27 @@ msgstr ""
 # 				2=Playlist verwalten
 # 				3=Einstellungen
 # 				4=Database
-# 				5=
+# 				5=Playlist abspielen
 # 				6=
 # 				7=
 # 				8=
 # -----
 
-msgctxt "#12345"
-msgid "Home_Homepage_Title"
-msgstr "[COLOR button_focus]Playlist abspielen:[/COLOR]"
+
+#
+#
+# -----
+#
+#
 
 
 msgctxt "#10001"
 msgid "Home_Homepage_Title"
 msgstr "Startseite"
 
+#
 # -----
+#
 
 msgctxt "#11002"
 msgid "Home_Playlist_Add_Title"
@@ -73,27 +78,29 @@ msgctxt "#11009"
 msgid "Home_Setting_Plot"
 msgstr "Hier kannst du Einstellungen für das Addon machen."
 
+#
 # -----
+#
 
 msgctxt "#12001"
 msgid "Home_Playlist_ID_Plot_Play_Title"
 msgstr "[COLOR button_focus]Playlist abspielen:[/COLOR]"
 
-msgctxt "#12002"
-msgid "Home_Playlist_ID_Plot_Play_DayX"
-msgstr "Tag"
+#msgctxt "#12002"
+#msgid "Home_Playlist_ID_Plot_Play_DayX"
+#msgstr "Tag [DAY]:"
 
 msgctxt "#12003"
 msgid "Home_Playlist_ID_Plot_Play_Episodes_Singular"
-msgstr "Folge noch"
+msgstr "Tag [DAY] | [EPISODE] Folge noch"
 
 msgctxt "#12004"
 msgid "Home_Playlist_ID_Plot_Play_Episodes_Plural"
-msgstr "Folgen noch"
+msgstr "Tag [DAY] | [EPISODE] Folgen noch"
 
 msgctxt "#12005"
 msgid "Home_Playlist_ID_Plot_Play_Complete"
-msgstr "Vollständig durchgeschaucht."
+msgstr "Vollständig durchgeschaucht"
 
 msgctxt "#12006"
 msgid "Home_Playlist_ID_Plot_Serie_Title"
@@ -103,7 +110,9 @@ msgctxt "#12007"
 msgid "Home_Playlist_ID_Dialog_Play_Complete"
 msgstr "Die Playlist wurde vollständig durchgeschaucht."
 
+#
 # -----
+#
 
 msgctxt "#13001"
 msgid "Home_Playlist_Delete_Option_Title"
@@ -114,9 +123,11 @@ msgid "Home_Playlist_Delete_Dialog_Title"
 msgstr "Playlist wurde erfolgreich gelöscht."
 
 
+#
+#
 # -----
-# -----
-# -----
+#
+#
 
 
 msgctxt "#21001"
@@ -143,7 +154,7 @@ msgctxt "#21006"
 msgid "Manage_Playlist_ReName_Menu_Plot_Current_Value_Empty"
 msgstr "[I]Keine Eingabe gemacht[/I]"
 
-
+# -----
 
 msgctxt "#21101"
 msgid "Manage_Playlist_ReName_Option_Title"
@@ -153,7 +164,9 @@ msgctxt "#21102"
 msgid "Manage_Playlist_ReName_Dialog_Error"
 msgstr "Bitte einen Namen vergeben."
 
+#
 # -----
+#
 
 msgctxt "#22001"
 msgid "Manage_Playlist_Poster_Menu_Title"
@@ -179,7 +192,7 @@ msgctxt "#22006"
 msgid "Manage_Playlist_Poster_Menu_Plot_Current_Value_Empty"
 msgstr "[I]Keine Eingabe gemacht[/I]"
 
-
+# -----
 
 msgctxt "#22101"
 msgid "Manage_Playlist_Poster_Option_Title"
@@ -197,7 +210,9 @@ msgctxt "#22104"
 msgid "Manage_Playlist_Poster_Menu_Title_Current_Value_Select"
 msgstr "Bild ausgewählt"
 
+#
 # -----
+#
 
 msgctxt "#23001"
 msgid "Manage_Playlist_EPP_Menu_Title"
@@ -223,14 +238,16 @@ msgctxt "#23006"
 msgid "Manage_Playlist_EPP_Menu_Plot_Current_Value_Empty"
 msgstr "[I]Keine Eingabe gemacht[/I]"
 
+# -----
 
 msgctxt "#23101"
 msgid "Manage_Playlist_EPP_Option_Title"
 # msgstr "Folgen pro Tag gesamt.\nMaximal 24."
 msgstr "Folgen pro Tag gesamt."
 
-
+#
 # -----
+#
 
 msgctxt "#24001"
 msgid "Manage_Playlist_Serie_Menu_Title"
@@ -248,7 +265,7 @@ msgctxt "#24004"
 msgid "Manage_Playlist_Serie_Menu_Plot_Current_Title"
 msgstr "[COLOR button_focus]Aktuell:[/COLOR]"
 
-
+# -----
 
 msgctxt "#24101"
 msgid "Manage_Playlist_Serie_SubMenu_Title"
@@ -310,6 +327,7 @@ msgctxt "#24115"
 msgid "Manage_Playlist_Serie_SubMenu_ID_Title_Episode_Empty"
 msgstr "[I](Kein Name angegeben)[/I]"
 
+# -----
 
 msgctxt "#24201"
 msgid "Manage_Playlist_Serie_Menu_Plot_Current_Series_Empty_Value"
@@ -319,12 +337,9 @@ msgctxt "#24202"
 msgid "Manage_Playlist_Serie_Menu_Plot_Current_Series_GoOn"
 msgstr ".. und noch [COUNT_SERIE] weitere"
 
-
-
-
-
-
+#
 # -----
+#
 
 msgctxt "#25001"
 msgid "Manage_Playlist_Video_Menu_Title"
@@ -334,7 +349,7 @@ msgctxt "#25002"
 msgid "Manage_Playlist_Video_Menu_Plot"
 msgstr "Übersicht der Videos von den ausgewählten Serien."
 
-
+# -----
 
 msgctxt "#25101"
 msgid "Manage_Playlist_Video_SubMenu_Title_Day"
@@ -360,7 +375,9 @@ msgctxt "#25106"
 msgid "Manage_Playlist_Video_SubMenu_Info_2_NoVideos"
 msgstr "[I]** Keine Videos für die ausgewählten Serien gefunden **[/I]"
 
+#
 # -----
+#
 
 msgctxt "#26001"
 msgid "Manage_Playlist_Add_Menu_Title"
@@ -370,7 +387,7 @@ msgctxt "#26002"
 msgid "Manage_Playlist_Add_Menu_Plot"
 msgstr "Alle vorgenommenen Einstellung übernehmen und als neue Playlist abspeichern."
 
-
+# -----
 
 msgctxt "#26101"
 msgid "Manage_Playlist_Add_Dialog_Successful"
@@ -380,7 +397,9 @@ msgctxt "#26102"
 msgid "Manage_Playlist_Add_Dialog_Error_1"
 msgstr "Für die Erstellung einer Playlist muss diese zumindest einen Namen haben."
 
+#
 # -----
+#
 
 msgctxt "#27001"
 msgid "Manage_Playlist_Edit_Menu_Plot_Title"
@@ -391,9 +410,11 @@ msgid "Manage_Playlist_Edit_Menu_Plot_Serie_Title"
 msgstr "[COLOR button_focus]Serien:[/COLOR]"
 
 
+#
+#
 # -----
-# -----
-# -----
+#
+#
 
 
 msgctxt "#30001"
@@ -416,6 +437,10 @@ msgctxt "#30005"
 msgid "Setting_PlaylistOverviewIcon"
 msgstr "Playlist-Bild auch als kleines Icon zeigen"
 
+#
+# -----
+#
+
 msgctxt "#31001"
 msgid "Setting_PlaylistOverviewSort_By_Name"
 msgstr "Name"
@@ -429,9 +454,11 @@ msgid "Setting_PlaylistOverviewSort_By_Create"
 msgstr "Erstelldatum"
 
 
+#
+#
 # -----
-# -----
-# -----
+#
+#
 
 
 msgctxt "#41001"
@@ -442,7 +469,9 @@ msgctxt "#41002"
 msgid "Database_Insert_Info"
 msgstr "SQL-Info: Insert erfolgreich. Befehl:"
 
+#
 # -----
+#
 
 msgctxt "#42001"
 msgid "Database_Update_Error"
@@ -452,8 +481,26 @@ msgctxt "#42002"
 msgid "Database_Update_Info"
 msgstr "SQL-Info: Update erfolgreich. Befehl:"
 
+#
 # -----
+#
 
 msgctxt "#43001"
 msgid "Database_Shema_Message"
 msgstr "Die Datenbank-Struktur ist beschädigt.\n\nDie vorhandene Datenbank-Datei wird umbenannt und eine neue Datenbank-Datei wird erstellt."
+
+
+#
+#
+# -----
+#
+#
+
+
+msgctxt "#51001"
+msgid "Playlist_Play_EpisodeIsWatched"
+msgstr "Folge wurde geguckt"
+
+msgctxt "#51002"
+msgid "Playlist_Play_EpisodeIsUnWatched"
+msgstr "Folge ungeguckt"

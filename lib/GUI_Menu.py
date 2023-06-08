@@ -30,22 +30,20 @@ def openPlaylist_By_UserInput(Database):
 
 
 		if getUnWatch is None:
-			VideoName	= getLang(12005)
+			PlayCurrent		= getLang(12005)
+			Name			= f'{Name} [I]({PlayCurrent})[/I]'
 
 		else:
-			OrderMain	= getUnWatch['Video_Order_Main']
-			OrderName	= str(OrderMain + 1)
-
-			getVideo	= Database.FetchAll(getSQLCommand_Video_CurrentDay(ID, OrderMain, 'UnWatch'))
-			VideoCount	= len(getVideo)
-
-
-			if VideoCount == 1:	VideoName	= ' ' + getLang(12003)
-			else:				VideoName	= ' ' + getLang(12004)
-
-
-			VideoName	= getLang(12002) + ' ' + str(OrderName) + ' - ' + str(VideoCount) + VideoName
-
+			OrderMain		= getUnWatch['Video_Order_Main']
+			getVideo		= Database.FetchAll(getSQLCommand_Video_CurrentDay(ID, OrderMain, 'UnWatch'))
+			CurrentDay		= str(OrderMain + 1)
+			CurrentVideo	= len(getVideo)
+			LangReplace		= {
+				'DAY'			:CurrentDay,
+				'EPISODE'		:CurrentVideo,
+				}
+			if CurrentVideo == 1:	PlayCurrent	= getLang(12003, LangReplace)
+			else:					PlayCurrent	= getLang(12004, LangReplace)
 
 
 		getSerie	= Database.FetchAll(getSQLCommand_Serie_ByPlaylistID(ID))
@@ -61,7 +59,7 @@ def openPlaylist_By_UserInput(Database):
 						'PAGE_NAME'	: 'PlayPlaylist',
 						'PAGE_ID'	: ID
 						},
-			Plot	= getLang(12001) + '\n' + VideoName + '\n\n' + getLang(12006) + '\n' + Serie_Plot,
+			Plot	= getLang(12001) + '\n' + PlayCurrent + '\n\n' + getLang(12006) + '\n' + Serie_Plot,
 			isFolder= True
 			)
 	#xbmcplugin.setResolvedUrl(
@@ -675,7 +673,12 @@ def openMenu_Playlist_Play(Database, PlaylistID):
 
 		LI			= xbmcgui.ListItem(Video_Name)
 		LI.setInfo('video', {'title'	: Video_Name})
-		LI.setInfo('video', {'director'	: [getAddonInfo('name'), Video_ID]}) # to get video_id at playing
+		#LI.setInfo('video', {'director'	: [getAddonInfo('name'), Video_ID]}) # to get video_id at playing
+		#LI.setInfo('video', {'genre'	: 'test'}) # to get video_id at playing
+
+
+		LI.setInfo('video', {'credits'		: getAddonInfo('name')})	# to referer to this addon to playlist
+		LI.setInfo('video', {'plotoutline'	: Video_ID})				# to get video_id to playlist
 
 
 		Playlist.add(

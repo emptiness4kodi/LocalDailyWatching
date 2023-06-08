@@ -1,12 +1,16 @@
 from lib.Plugin import *
 from lib.StoreSQLite import Store
+import xbmc
 import xbmcgui
+import xbmcplugin
 
 
 
 
 Monitor				= xbmc.Monitor()
 Player				= xbmc.Player()
+Playlist			= xbmc.PlayList(xbmc.PLAYLIST_VIDEO)
+
 
 Addon_DatabaseFile	= getAddonDatabaseFile()
 Database			= Store(Addon_DatabaseFile)
@@ -21,29 +25,57 @@ if __name__ == '__main__':
 			break
 
 
-		if Player.isPlaying():
+		if Player.isPlayingVideo():
+			Log('is playing .. ')
 			InfoTag			= Player.getVideoInfoTag()
-			getVideoInfo	= InfoTag.getDirectors()
+			FileCurrent		= Player.getPlayingFile()
+			AddonName		= getAddonInfo('name')
 
 
-			if 0 < len(getVideoInfo) and 1 < len(getVideoInfo):
-				AddonName	= getAddonInfo('name')
-				VideoCheck	= getVideoInfo[0]
-				VideoID		= getVideoInfo[1]
+			getVideoTitle	= InfoTag.getTitle()
+			getAddonName	= InfoTag.getWritingCredits()
+			getVideoID		= InfoTag.getPlotOutline()
 
 
-				if AddonName == VideoCheck and VideoID !='':
-					FileCurrent	= Player.getPlayingFile()
-
-					TimeCurrent	= int(Player.getTime())
-					TimeTotal	= int(Player.getTotalTime())
-
-					TimePercent	= TimeCurrent / TimeTotal * 100
-					TimePercent	= int(TimePercent)
+			if getAddonName == AddonName and getVideoID != '':
+				Log('video from addon .. ')
 
 
-					if TimePercent >= 80:	isWatched = '1'
-					else:					isWatched = '0'
+				TimeCurrent	= int(Player.getTime())
+				TimeTotal	= int(Player.getTotalTime())
+
+				TimePercent	= TimeCurrent / TimeTotal * 100
+				TimePercent	= int(TimePercent)
 
 
-					Database.Update('Video', 'Video_ID', int(VideoID), {'Watched':isWatched, 'WatchDate':'DateTimeNow'})
+				if TimePercent >= 80:
+					Watched		= '1'
+					WatchInfo	= 'Folge wurde geguckt'
+				else:
+					Watched		= None
+					WatchInfo	= 'Folge ungeguckt'
+
+
+				#blub = f'{TimeCurrent} / {TimeTotal} = {TimePercent} : {WatchInfo}'
+				#Log(blub)
+
+
+				LI = xbmcgui.ListItem(getVideoTitle)
+				LI.setPath(FileCurrent)
+				LI.setInfo('video', {'title'		: getVideoTitle})
+				LI.setInfo('video', {'credits'		: getAddonName})
+				LI.setInfo('video', {'plotoutline'	: getVideoID})
+				LI.setInfo('video', {'genre'		: WatchInfo})
+				Player.updateInfoTag(LI)
+
+
+				Database.Update(
+					'Video',
+					'Video_ID',
+					int(getVideoID),
+					{
+					'Watched'	:Watched,
+					'WatchDate'	:'DateTimeNow'
+					}
+					)
+
